@@ -12,7 +12,7 @@ The module should have the following interface:
 
 - output    logic      q_norst_o,   -> Q output from non-resettable flop
 - output    logic      q_syncrst_o, -> Q output from flop using synchronous reset
-- output    logic      q_asyncrst_o -> Q output from flop using asynchrnoous reset
+- output    logic      q_asyncrst_o -> Q output from flop using asynchronous reset
 
 ## Additional signals utilized
 
