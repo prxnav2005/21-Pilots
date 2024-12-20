@@ -5,14 +5,15 @@ Design and verify a rising and falling edge detector
 ## Interface Definition
 
 The module should have the following interface:
+```
+input     wire    clk,
+input     wire    reset,
 
-- input     wire    clk,
-- input     wire    reset,
+input     wire    a_i,            -> Serial input to the module
 
-- input     wire    a_i,            -> Serial input to the module
-
-- output    wire    rising_edge_o,  -> Rising edge output
-- output    wire    falling_edge_o  -> Falling edge output
+output    wire    rising_edge_o,  -> Rising edge output
+output    wire    falling_edge_o  -> Falling edge output
+```
 
 ## Functional Description 
 
