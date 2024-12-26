@@ -12,9 +12,8 @@ module day11 (
 );
   logic [3:0] shift_reg;
   logic [2:0] count;
-  logic serial_o_reg;
-  logic valid_o_reg;
-  logic empty_o_reg;
+  logic serial_o_reg, valid_o_reg, empty_o_reg;
+
   
   assign serial_o = serial_o_reg;
   assign valid_o = valid_o_reg;
