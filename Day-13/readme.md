@@ -3,11 +3,11 @@
 Design a one-hot mux using the following language constructs:
 
 ## Construct
-Ternary Operator
-Case statement
-If else block
-Combinatorial For loop
-And-or tree
+- Ternary Operator
+- Case statement
+- If else block
+- Combinatorial For loop
+- And-or tree
 
 ## Interface Definition
 The module should have the following interface:
