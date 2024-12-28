@@ -28,4 +28,4 @@ output    logic     y_loop_o,
 output    logic     y_aor_o
 ```
 > [!NOTE]
-> Assume that sel_i is a one-hot signal
+> Assume that `sel_i` is a one-hot signal
