@@ -17,3 +17,8 @@ module day15 (
   output    logic[3:0]  gnt_o
 );
 ```
+
+## Challenge
+
+Design a parameterized round-robin arbiter. (They really tried lol).
+
