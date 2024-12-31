@@ -8,7 +8,7 @@ module day20 (
     output wire        rd_valid_o,
     output wire [31:0] rd_data_o
 );
-		wire arb_write_en;
+	wire arb_write_en;
     wire arb_read_en;
 
     wire fifo_full;
